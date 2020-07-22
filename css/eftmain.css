@@ -1,0 +1,465 @@
+.button-line{
+  z-index: 1000;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  padding: 10px;
+}
+.pure-button-group{
+  margin-bottom: 10px;
+}
+#button-show, #button-hide, #button-fly-osl, #button-fly-ham, #button-fly-par{
+  font-size: 85%;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#button-fly-osl, #button-fly-ham, #button-fly-par{
+  background: rgb(28, 184, 65);
+}
+
+#button-show, #button-hide{
+  background: rgb(223, 117, 20);
+}
+
+#map {
+    position: absolute;
+    z-index: 1;
+    top: 56px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /*background-color: #e6e3da;
+    background-image: url(../img/pattern-light.png);*/
+
+    background-color: #3c3c3c;
+    background-image: url(../img/pattern-dark.png);
+}
+
+.imapdesc {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    background-color: #2f2f2f;
+    padding: 3px;
+    border-radius: 3px;
+    border: solid 1px #444444;
+}
+
+.cityhomebg {
+    color: #9a8866;
+    background-color: #0f0f0f;
+    background-image: url(../img/background-city.webp);
+    background-repeat: no-repeat;
+    background-position: top, center;
+}
+
+.color {
+    color: #9a8866;
+}
+
+.yellow {
+    color: #ff9000;
+}
+
+.red {
+    color: #ff3333;
+}
+
+.bdtext {
+    background-color: #f3f1eb;
+    background-image: url(../img/pattern-text.png);
+}
+
+
+.pt-noise {
+    background-color: #262626;
+    background-image: url(../img/pattern-noise.png);
+}
+
+.navbar-tarkov{
+    background-color: #171717;
+    background-image: url(../img/pattern-navbar.png);
+    background-position: center;
+}
+
+.border-tarkov {
+    border-color: #9a8866!important;
+}
+
+.footer-bt {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.small > a {
+    color: #666;
+}
+
+.small > a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.donatebt{
+    margin-top:6px;
+    margin-right: 10px;
+}
+
+.bl-extract {
+    font-family: Bender Bold;
+    font-size: 18px;
+    color: #000;
+    background-color: #8cbc29;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bl-spawn {
+    font-family: Bender Bold;
+    font-size: 16px;
+    color: #000;
+    background-color: #e3e3e3;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bl-loot {
+    font-family: Bender Bold;
+    font-size: 16px;
+    color: #000;
+    background-color: #e3e3e3;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    min-width: 200px;
+}
+
+.bl-quest {
+    font-family: Bender Bold;
+    font-size: 16px;
+    color: #000;
+    background-color: #ff9000;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bl-keySp {
+    font-family: Bender Bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0072ff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bl-keyFi {
+    font-family: Bender Bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2f9b16;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bl-doors {
+    font-family: Bender Bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0072ff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.bg-tarbar {
+    background-color: #6f5e3f!important;
+}
+.progress {
+    height: 1.50rem!important;
+    background-color: #9a8866!important;
+    border-radius: 0.30rem!important;
+}
+
+/* //////////////////////////// */
+/* BOOTSTRAP CUSTOMS
+/* //////////////////////////// */
+.card-img-overlay {
+    padding: 0.30rem !important;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.list-group-item-modal {
+    position: relative;
+    display: block;
+    padding: 3px;
+}
+
+.card {
+    border: 0px !important;
+}
+
+.modal-header {
+    background-image: url(../img/modal-header.png);
+}
+
+.modal-title {
+    font-family: Bender Bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+/* //////////////////////////// */
+/* LEAFLET CUSTOMS
+/* //////////////////////////// */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: white;
+    color: #333;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.leaflet-popup-content {
+    margin: 7px !important;
+    line-height: 1.5 !important;
+}
+
+.leaflet-popup-content>img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.leaflet-popup-content-wrapper {
+    padding: 1px;
+    text-align: center !important;
+    border-radius: 5px !important;
+    max-width: 250px;
+    font-size: 14px;
+    color: #9e9e9e !important;
+    width: 230px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+    display: none;
+}
+
+.lfpoptxt {
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.6 !important;
+}
+
+/* //////////////////////////// */
+/* BOTÕES CUSTOMIZADOS
+/* //////////////////////////// */
+.bender {
+    font-family: Bender;
+}
+.benderbold {
+    font-family: Bender Bold;
+}
+.btn-tarkov {
+    font-family: Bender Bold;
+    text-align: left !important;
+    text-transform: uppercase;
+    font-size: 25px !important;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+    color: #807156 !important;
+    border-color: transparent;
+    background-color: #f0f0d6 !important;
+    background-image: url(../img/rust-texture.png) !important;
+}
+
+.btn-tarkov:hover {
+    color: #fff;
+    background-color: #807156;
+}
+
+.btn-tarkov:focus,
+.btn-tarkov.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-tarkov.disabled,
+.btn-tarkov:disabled {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.btn-tarkov:not(:disabled):not(.disabled):active,
+.btn-tarkov:not(:disabled):not(.disabled).active,
+.show>.btn-tarkov.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+}
+
+.btn-tarkov:not(:disabled):not(.disabled):active:focus,
+.btn-tarkov:not(:disabled):not(.disabled).active:focus,
+.show>.btn-tarkov.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+/* //////////////////////////// */
+/* FONTS
+/* //////////////////////////// */
+
+@font-face {
+    font-family: 'PF Tempesta Seven Regular';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('webfonts/PFTempestaSeven.woff2') format('woff2'),
+        url('webfonts/PFTempestaSeven.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PF Tempesta Seven Bold';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('webfonts/PFTempestaSevenBold.woff2') format('woff2'),
+        url('webfonts/PFTempestaSevenBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bender';
+
+    src: url('webfonts/Bender.eot');
+    src: url('webfonts/Bender.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/Bender.woff2') format('woff2'),
+        url('webfonts/Bender.woff') format('woff'),
+        url('webfonts/Bender.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bender Bold';
+
+    src: url('webfonts/BenderBold.eot');
+    src: url('webfonts/BenderBold.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/BenderBold.woff2') format('woff2'),
+        url('webfonts/BenderBold.woff') format('woff'),
+        url('webfonts/BenderBold.ttf') format('truetype');
+}
+
+
+
+/* //////////////////////////// */
+/* Leaflet Social & fullscreen
+/* //////////////////////////// */
+
+.leaflet-social-control a {
+    font-size: 200%;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.leaflet-control-fullscreen a {
+    background: #fff url(../img/fullscreen.png) no-repeat 0 0;
+    background-size: 26px 52px;
+}
+
+.leaflet-touch .leaflet-control-fullscreen a {
+    background-position: 2px 2px;
+}
+
+.leaflet-fullscreen-on .leaflet-control-fullscreen a {
+    background-position: 0 -26px;
+}
+
+.leaflet-touch.leaflet-fullscreen-on .leaflet-control-fullscreen a {
+    background-position: 2px -24px;
+}
+
+
+/* Do not combine these two rules; IE will break. */
+
+.leaflet-container:-webkit-full-screen {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.leaflet-container.leaflet-fullscreen-on {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.leaflet-pseudo-fullscreen {
+    position: fixed !important;
+    z-index: 99999;
+    top: 0 !important;
+    left: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution:192dpi) {
+    .leaflet-control-fullscreen a {
+        background-image: url(../img/fullscreen@2x.png);
+    }
+}
+
+
+/*///////////////////////// END Leaflet fullscreen*/
+
+
+.tab-content{
+    background-color: white;
+    padding: 20px;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    padding-top: 15px !important;
+}
+
+.figure-caption {
+    color: #000000 !important;
+    background-color: #ffa700 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    align-content: center !important;
+    background-image: url(../img/pattern-pixel.png);
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ca8300;
+    font-family: Bender Bold;
+}
+
+
+/* LEAFLET CUSTOM - Barra de créditos transparente */
+.leaflet-container .leaflet-control-attribution {
+    background: none !important;
+    margin: 5px !important;
+}
+.leaflet-control-attribution, .leaflet-control-scale-line {
+    padding: 0 5px !important;
+    color: #9a8866 !important;
+}
+
+.leaflet-container a {
+    color: #9a8866 !important;
+    text-decoration: none !important;
+}
+
+.leaflet-container a:hover {
+    color: #67532d !important;
+    text-decoration: none !important;
+}
