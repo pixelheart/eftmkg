@@ -1,3 +1,3 @@
-# eftmkg
+# Escape From Tarkov Map Key Guide
  
-![cluster map example](img/ogimg.webp)
+![ogimg](img/ogimg.webp)
